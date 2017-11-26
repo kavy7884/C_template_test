@@ -21,5 +21,10 @@ int main(){
 
     cout << "Total: " << s << endl;
 
+    for(auto it = begin(ref); it != end(ref); ++ it){
+        cout << *it << " ";
+    }
+    cout <<endl;
+
     return 0;
 }
